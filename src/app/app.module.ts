@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ZoomDirective } from './zoom.directive';
+import { ContainerComponent } from './container/container.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ZoomDirective,
+    ContainerComponent
   ],
   imports: [
     BrowserModule
